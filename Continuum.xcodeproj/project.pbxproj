@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E3CE8302435337E003719DD /* SearchableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3CE82F2435337E003719DD /* SearchableRecord.swift */; };
 		9EDA76812433E33500E0DD85 /* PostListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA76802433E33500E0DD85 /* PostListTableViewController.swift */; };
 		9EDA76832433E34800E0DD85 /* PostDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA76822433E34800E0DD85 /* PostDetailTableViewController.swift */; };
 		9EDA76852433E35C00E0DD85 /* AddPostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA76842433E35C00E0DD85 /* AddPostTableViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E3CE82F2435337E003719DD /* SearchableRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableRecord.swift; sourceTree = "<group>"; };
 		9EDA76802433E33500E0DD85 /* PostListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListTableViewController.swift; sourceTree = "<group>"; };
 		9EDA76822433E34800E0DD85 /* PostDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailTableViewController.swift; sourceTree = "<group>"; };
 		9EDA76842433E35C00E0DD85 /* AddPostTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostTableViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				9EDA767B2433DC4D00E0DD85 /* Views */,
 				9EDA768C2433E8EC00E0DD85 /* Helper+Extension */,
 				9EDA767A2433DC4400E0DD85 /* Resources */,
+				9E3CE82F2435337E003719DD /* SearchableRecord.swift */,
 			);
 			path = Continuum;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 				9EDA76832433E34800E0DD85 /* PostDetailTableViewController.swift in Sources */,
 				9EDA76872433E48500E0DD85 /* Post.swift in Sources */,
 				9EDA76902433ED1000E0DD85 /* PostTableViewCell.swift in Sources */,
+				9E3CE8302435337E003719DD /* SearchableRecord.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
