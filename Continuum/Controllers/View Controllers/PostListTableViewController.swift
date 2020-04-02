@@ -27,6 +27,7 @@ class PostListTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         postSearchBar.delegate = self
+        postSearchBar.autocapitalizationType = .none
     }
     
     override func viewWillAppear(_ animated: Bool) {

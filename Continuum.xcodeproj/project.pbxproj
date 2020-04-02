@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		9E3CE8302435337E003719DD /* SearchableRecord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3CE82F2435337E003719DD /* SearchableRecord.swift */; };
+		9E3CE83224354316003719DD /* PhotoSelectorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E3CE83124354316003719DD /* PhotoSelectorViewController.swift */; };
 		9EDA76812433E33500E0DD85 /* PostListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA76802433E33500E0DD85 /* PostListTableViewController.swift */; };
 		9EDA76832433E34800E0DD85 /* PostDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA76822433E34800E0DD85 /* PostDetailTableViewController.swift */; };
 		9EDA76852433E35C00E0DD85 /* AddPostTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA76842433E35C00E0DD85 /* AddPostTableViewController.swift */; };
@@ -25,6 +26,7 @@
 
 /* Begin PBXFileReference section */
 		9E3CE82F2435337E003719DD /* SearchableRecord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableRecord.swift; sourceTree = "<group>"; };
+		9E3CE83124354316003719DD /* PhotoSelectorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoSelectorViewController.swift; sourceTree = "<group>"; };
 		9EDA76802433E33500E0DD85 /* PostListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostListTableViewController.swift; sourceTree = "<group>"; };
 		9EDA76822433E34800E0DD85 /* PostDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailTableViewController.swift; sourceTree = "<group>"; };
 		9EDA76842433E35C00E0DD85 /* AddPostTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostTableViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				9EDA76802433E33500E0DD85 /* PostListTableViewController.swift */,
 				9EDA76822433E34800E0DD85 /* PostDetailTableViewController.swift */,
 				9EDA76842433E35C00E0DD85 /* AddPostTableViewController.swift */,
+				9E3CE83124354316003719DD /* PhotoSelectorViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 				9EDA76812433E33500E0DD85 /* PostListTableViewController.swift in Sources */,
 				9EDA76922433F91500E0DD85 /* DateFormatter.swift in Sources */,
 				9EDA76852433E35C00E0DD85 /* AddPostTableViewController.swift in Sources */,
+				9E3CE83224354316003719DD /* PhotoSelectorViewController.swift in Sources */,
 				9EDA768B2433E85C00E0DD85 /* PostController.swift in Sources */,
 				9EDA76832433E34800E0DD85 /* PostDetailTableViewController.swift in Sources */,
 				9EDA76872433E48500E0DD85 /* Post.swift in Sources */,

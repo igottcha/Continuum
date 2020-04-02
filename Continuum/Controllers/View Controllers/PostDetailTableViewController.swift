@@ -35,12 +35,17 @@ class PostDetailTableViewController: UITableViewController {
     
     @IBAction func commentButtonTapped(_ sender: Any) {
         presentCommentAlertController()
+        print("comment works")
     }
     
     @IBAction func shareButtonTapped(_ sender: Any) {
+        guard let caption = post?.caption, let photo = post?.photo else { return }
+        let shareActivity = UIActivityViewController(activityItems: [caption, photo], applicationActivities: nil)
+        present(shareActivity, animated: true)
     }
     
     @IBAction func followButtonTapped(_ sender: Any) {
+        print("follow works")
     }
     
     // MARK: - Table view data source
